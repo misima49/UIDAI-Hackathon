@@ -23,6 +23,7 @@ the urban areas see the repetition of the same content in the final address.
 * Send a post request at https://uidai-address-handler.herokuapp.com/
 * Request body should contain raw input in JSON format.
 * Following are vaild keys for JSON:
+```
         "house": null,
         "building": null,
         "apartment": null,
@@ -40,6 +41,7 @@ the urban areas see the repetition of the same content in the final address.
         "district": null,
         "state": null,
         "pincode": null
+```
 * The response would have all the fields in correct sequence, captalisation and format, without any repetition.
 * To get complete address use the last key of the response: ```formatted_address```
 
@@ -89,6 +91,13 @@ the urban areas see the repetition of the same content in the final address.
     "formatted_address": "1085 Pattabhi Ram Shastry Lane, Mothi nagar, Kalasipalyam, Bengaluru North, Bengaluru, Karnataka, Near New Bomboo Bazaar"
 }
 ```
+
+#### Screengrabs:
+Input:
+<img alt="License: ISC" src="./samples/sample_input1.png" />
+
+Output:
+<img alt="License: ISC" src="./samples/sample_output1.png" />
 
 ## Show your support
 
