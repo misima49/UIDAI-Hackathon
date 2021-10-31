@@ -47,7 +47,7 @@ the urban areas see the repetition of the same content in the final address.
 
 * Mrinal Singh Malav <a href="https://github.com/misima49" target="_blank">@misima49</a>
 * Bignesh Sahoo <a href="https://github.com/bigsbunny" target="_blank">@bigsbunny</a>
-* Chidananda Sahoo <a href="https://github.com/csnaya" target="_blank">@csnaya</a>
+* Chidananda Sahoo <a href="https://github.com/cnsnaya" target="_blank">@cnsnaya</a>
 * Nikita Khaitan <a href="https://github.com/niqta31" target="_blank">@niqta31</a>
 * Shaurya Raj <a href="https://github.com/shauryaraj5" target="_blank">@shauryaraj5</a>
 
