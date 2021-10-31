@@ -65,9 +65,17 @@ app.post("/", function (req, res) {
         while (specialCharRegex.test(str[0])) {
             str = str.replace(str[0], "");
         }
-        while (specialCharRegex.test(str[str.length - 1])) {
-            str = str.replace(str[str.length - 1], "");
+        str = str.split("").reverse().join("");
+        while (specialCharRegex.test(str[0])) {
+            str = str.replace(str[0], "");
         }
+
+        str = str.split("").reverse().join("");
+        // while (specialCharRegex.test(str[str.length - 1])) {
+        //     // console.log("character = " + str[str.length-1]);
+        //     str = str.replace(str[str.length - 1], "");
+        //     // console.log(str);
+        // }
 
         str = str.trim();
         if (str) {
@@ -102,7 +110,7 @@ app.post("/", function (req, res) {
             originalAdd[key] = formatString(originalAdd[key]);
     }
 
-    // console.log(originalAdd);
+    console.log(originalAdd);
 
     let finalAddress = "";
 
